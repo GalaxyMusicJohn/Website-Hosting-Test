@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.17.6/dist/css/uikit.min.css"
+    />
+    <link rel="stylesheet" href="styles/home.css" />
+</head>
+<body>
+    <header>
+        <!--Navbar-->
+        <nav class="navbar">
+          <input type="checkbox" id="nav-check" />
+          <i class="ri-music-fill music-logo logo"></i>
+          <a href="/">
+            <span class="logo heading">Rudraveena</span>
+          </a>
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+          <ul class="navbar-list">
+            <li><a href="#" class="nav-items">Home</a></li>
+            <li><a href="#" class="nav-items">About Us</a></li>
+            <li><a href="#" class="nav-items">Services</a></li>
+            <li><a href="#" class="nav-items">Booking</a></li>
+            <li><a href="/gallery.html" class="nav-items">Gallery</a></li>
+            <li><a href="#" class="nav-items">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+    <div class="container">
+      <form class="contact-us-form">
+        <fieldset class="uk-fieldset">
+          <div class="uk-margin">
+            <label for="">Name</label>
+            <input class="uk-input uk-form-width-medium" type="text" placeholder="Enter your Name">
+          </div>
+          <div class="uk-margin">
+            <label for="">Email</label>
+            <input class="uk-input uk-form-width-medium" type="text" placeholder="Enter your Email">
+          </div>
+      
+          <div class="uk-margin">
+            <label for="">Subject</label>
+            <select class="uk-select">
+              <option>Select dropdown</option>
+              <option>Sitar</option>
+              <option>Rudraveena</option>
+              <option>Surbahar</option>
+                  </select>
+          </div>
+    
+       
+          <div class="uk-margin">
+            <label for="">Message</label>
+            <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+          </div>
+          <button class="uk-button uk-button-primary uk-width-1-1">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+</body>
+</html>
